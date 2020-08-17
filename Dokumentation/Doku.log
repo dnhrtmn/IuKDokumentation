@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.20)  17 AUG 2020 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.20)  17 AUG 2020 16:35
 entering extended mode
 **./Doku.tex
 (Doku.tex
@@ -119,29 +119,373 @@ Herrn Schmidt:
  []
 
 
-Overfull \hbox (14.39786pt too wide) in paragraph at lines 104--104
+Overfull \hbox (58.6556pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/n/10.95 lichen Di-a-gramme (UML-Diagramm, Use-Case Di-a-gramm, Ak-ti
+vitatendiagramme) 
+ []
+
+[2]
+Overfull \hbox (1.47209pt too wide) in paragraph at lines 126--126
+\OT1/cmr/m/n/10.95 der bish-eri-gen Be-nutze-r-oberflache (Start-seite, Buchun
+gsubersicht,
+ []
+
+! Misplaced alignment tab character &.
+l.126 ... und Bereitstellung auf GitHub --> Lisa &
+                                                   Anika (1 Sprint)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.127 ... in die Seite (1 Sprint) --> Maximilian &
+                                                   Yuliya
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (7.92049pt too wide) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/10.95 Planung der Im-ple-men-tierung der Funk-tio-nen in die Sei
+te (1 Sprint)
+ []
+
+
+Overfull \hbox (1.59383pt too wide) in paragraph at lines 139--140
+[]\OT1/cmr/m/n/10.95 Anmeldung pro-gram-mieren: Eingabefelder fur Be-nutzer-na
+me und
+ []
+
+! Misplaced alignment tab character &.
+l.140 ...fotext über jeweiligen Raum --> Yuliya &
+                                                   Maximilian (2 Sprints)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.141 \item Problembehebung auf GitHub --> Lisa &
+                                                  Anika (1 Sprint)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[3]
+
+! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...Pakete verteilt werden müssen (Statt „
+                                                  Codierung Startseite“ eh...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...Statt „Codierung Startseite“ eher „
+                                                  Codierung Login-Button“ ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...eher „Codierung Login-Button“ und „
+                                                  Codierung Eingabefelder“
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (14.06456pt too wide) in paragraph at lines 154--155
+[]\OT1/cmr/m/n/10.95 Coding der Re-servierungsubersicht: An-sicht eines jew-ei
+li-gen Raumes
+ []
+
+
+Overfull \hbox (22.85507pt too wide) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10.95 Rucksprache uber ak-tuelle Ar-beitspakete (erledigt, Pro
+b-leme, Verlangerung
+ []
+
+
+Overfull \hbox (6.70386pt too wide) in paragraph at lines 170--171
+[]\OT1/cmr/m/n/10.95 Anzeigeoption freier Raume uber Such-funk-tion --> Danie
+l (1 Sprint) 
+ []
+
+
+Overfull \hbox (22.85507pt too wide) in paragraph at lines 180--181
+[]\OT1/cmr/m/n/10.95 Rucksprache uber ak-tuelle Ar-beitspakete (erledigt, Pro
+b-leme, Verlangerung
+ []
+
+[4]
+! Misplaced alignment tab character &.
+l.187 ...kumentation der Projektarbeit --> Anika &
+                                                   Lisa
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (22.85507pt too wide) in paragraph at lines 195--196
+[]\OT1/cmr/m/n/10.95 Rucksprache uber ak-tuelle Ar-beitspakete (erledigt, Pro
+b-leme, Verlangerung
+ []
+
+
+! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...meln von Ideen für mögliche weitere „
+                                                  Kann“-Funktionen und Auf...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.72592pt too wide) in paragraph at lines 196--197
+[]\OT1/cmr/m/n/10.95 Sammeln von Ideen fur mogliche weit-ere Kann\-Funktionen
+ und Aufteilung
+ []
+
+! Misplaced alignment tab character &.
+l.202 ...bschlussdokumentation in Latex --> Lisa &
+                                                   Anika (Running ToDo bis z...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (22.85507pt too wide) in paragraph at lines 210--211
+[]\OT1/cmr/m/n/10.95 Rucksprache uber ak-tuelle Ar-beitspakete (erledigt, Pro
+b-leme, Verlangerung
+ []
+
+[5]
+! Misplaced alignment tab character &.
+l.218 ...bschlussdokumentation in Latex --> Lisa &
+                                                   Anika (Running ToDo bis z...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (22.85507pt too wide) in paragraph at lines 226--227
+[]\OT1/cmr/m/n/10.95 Rucksprache uber ak-tuelle Ar-beitspakete (erledigt, Pro
+b-leme, Verlangerung
+ []
+
+
+! Package inputenc Error: Unicode character  (U+F0E0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ...er Ideen für mögliche Testszenarien 
+                                                   alle
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character  (U+F0E0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 ...gen fehlender Kommentare im Quelltext 
+                                                   Daniel & Maximilian (Runn...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Misplaced alignment tab character &.
+l.228 ...nder Kommentare im Quelltext  Daniel &
+                                                   Maximilian (Running ToDo ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! Package inputenc Error: Unicode character  (U+F0E0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ...hlermeldungen behoben werden können. 
+                                                   Daniel & Maximilian (Runn...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Misplaced alignment tab character &.
+l.229 ...ngen behoben werden können.  Daniel &
+                                                   Maximilian (Running ToDo ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.232 ...kumentation der Projektarbeit --> Anika &
+                                                   Lisa
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (2.01959pt too wide) in paragraph at lines 241--242
+[]\OT1/cmr/m/n/10.95 Besprechung des Zeit-plans / noch durchzufuhrender Auf-ga
+ben bis Ende
+ []
+
+[6]
+! Misplaced alignment tab character &.
+l.252 ...kumentation der Projektarbeit --> Anika &
+                                                   Lisa
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.254 ...ung des durchgeführten Tests --> Anika &
+                                                   Lisa (1Sprint)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.255 ...nder Kommentare im Quelltext --> Daniel &
+                                                   Maximilian (Running ToDo ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.256 ...ngen behoben werden können. --> Daniel &
+                                                   Maximilian (Running ToDo ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.274 ...kumentation der Projektarbeit --> Anika &
+                                                   Lisa
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.276 ...heiten an der Programmierung --> Daniel &
+                                                   Maximilian (1Sprint)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (4.05757pt too wide) in paragraph at lines 276--277
+[]\OT1/cmr/m/n/10.95 Durchfuhrung let-zter Fein-heiten an der Pro-gram-mierung
+ --> Daniel
+ []
+
+
+Overfull \hbox (14.39786pt too wide) in paragraph at lines 285--285
 []\OT1/cmr/bx/n/14.4 Produktdokumentation basierend auf dem Pflicht-
  []
 
-[2] (Doku.aux) ) 
+[7] [8] (Doku.aux) ) 
 Here is how much of TeX's memory you used:
- 1162 strings out of 480799
- 16999 string characters out of 2905528
- 254479 words of memory out of 3000000
- 17205 multiletter control sequences out of 15000+200000
+ 1167 strings out of 480799
+ 17051 string characters out of 2905528
+ 255479 words of memory out of 3000000
+ 17210 multiletter control sequences out of 15000+200000
  537580 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,25p,183b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\anika\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
-pen/ec/dpi600\tcrm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Doku.pdf (3 pages, 95831 bytes).
+ 30i,6n,25p,317b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\anika\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Doku.pdf (9 pages, 109253 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
