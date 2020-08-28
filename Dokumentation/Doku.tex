@@ -1,28 +1,40 @@
-\documentclass[11pt, a4paper]{article}
-\usepackage{graphicx}
+\documentclass[a4paper,report,headsepline]{scrreprt} 
 
+\usepackage{xcolor} 
+\usepackage{graphicx}
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage{comment}
+
+
+
+\usepackage[automark]{scrlayer-scrpage} 
+
+% headsepline=Dicke:Länge (jeweils optional, die Dicke ist auf 0.4pt voreingestellt)
+\KOMAoptions{headsepline=0.5pt} 
+\addtokomafont{headsepline}{\color{black}}
 
 \begin{document}
-\begin{titlepage}
 
- \centering 
 
-\title{Dokumentation Learning Spaces - Informations- und Kommunikationstechnologien}
-\date{}
-\author{Anika Balke, Daniel Hartmann, Lisa Peter,   \\
-Maximilian Hartwich, Yuliya Karybochkin}
-
-\vfill
-
+\title{ \begin{Huge}
+\textbf{Projektdokumentation}
+\end{Huge} \\  \dq Learning Spaces\dq}
+\author{Anika Balke, Daniel Hartmann, Lisa Peter, \\ Maximilian Hartwich, Yuliya Karybochkin}
+%\date{} %%Wenn kommentiert, wird das aktuelle Datum verwendet.
 
 \maketitle
 
- \end{titlepage}
- 
+
+\tableofcontents
+\clearpage
 
 
-\section{Meeting Protokolle}
-{\large Mittwoch, 06.05.2020 Beginn: 10:00 Uhr Ende 10:30 Uhr}  \\
+
+\chapter{Meeting Protokolle}
+\underline{{\large Mittwoch, 06.05.2020 Beginn: 10:00 Uhr Ende 10:30 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 
  \begin{itemize}
@@ -40,7 +52,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
  
 \end{itemize} 
 \end{itemize}  
-{\large Mittwoch, 13.05.2020 Beginn: 20:00 Uhr Ende: 20:30 Uhr}  \\
+ \underline{{\large Mittwoch, 13.05.2020 Beginn: 20:00 Uhr Ende: 20:30 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann}
 
 \begin{itemize}
@@ -57,7 +69,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
 
 \end{itemize} 
 \end{itemize}  
-{\large Donnerstag, 14.05.2020 Beginn: 9:00 Uhr Ende: 9:45 Uhr}  \\
+ \underline{{\large Donnerstag, 14.05.2020 Beginn: 9:00 Uhr Ende: 9:45 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina, Michael B. Schmidt}
 
 \begin{itemize}
@@ -72,7 +84,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
 
 \end{itemize} 
 \end{itemize}
-{\large Mittwoch, 20.05.2020, Beginn: 10:00 Uhr Ende: 10:45 Uhr}  \\
+ \underline{{\large Mittwoch, 20.05.2020, Beginn: 10:00 Uhr Ende: 10:45 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 
 \begin{itemize}
@@ -92,7 +104,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
 
 \end{itemize}
 \end{itemize} 
-{\large Dienstag, 26.05.2020, Beginn: 14:15 Uhr, Ende 15:15 Uhr}  \\
+ \underline{{\large Dienstag, 26.05.2020, Beginn: 14:15 Uhr, Ende 15:15 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina, Michael B. Schmidt}
 
 \begin{itemize}
@@ -104,7 +116,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \item Präsentation einer bisherigen Layoutsskizze 
 
 \end{itemize}
-{\large 04.06.2020 Beginn: 19:50 Uhr Ende: 21:30 Uhr}  \\
+ \underline{{\large 04.06.2020 Beginn: 19:50 Uhr Ende: 21:30 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 
 \begin{itemize}
@@ -115,19 +127,20 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \end{itemize}
 
  
-\subsection{Scrub-Meetings} 
-{\large SCRUM-Meeting Nr. 1, Mittwoch, 10.06.2020, Beginn: 10:00 Uhr Ende 10:30 Uhr}  \\
+\section{Scrub-Meetings} 
+ \underline{{\large SCRUM-Meeting Nr. 1, Mittwoch, 10.06.2020, Beginn: 10:00 Uhr Ende 10:30 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 
 \begin{itemize}
 \item Festlegen der Sprintdauer auf eine Woche
 \item Verteilung der eingehenden Aufgaben:
 \begin{itemize}
-\item Nach Feedback des Kundens (26.05.2020) detailliertere Codierung der bisherigen Benutzeroberfläche (Startseite, Buchungsübersicht, Buchungsvorgang) --> Daniel (2 Sprints)\item Erstellung der Datei für die Dokumentation und Bereitstellung auf GitHub --> Lisa & Anika (1 Sprint)
-\item Planung der Implementierung der Funktionen in die Seite (1 Sprint) --> Maximilian & Yuliya 
+\item Nach Feedback des Kundens (26.05.2020) detailliertere Codierung der bisherigen Benutzeroberfläche (Startseite, Buchungsübersicht, Buchungsvorgang) --> Daniel (2 Sprints)
+\item Erstellung der Datei für die Dokumentation und Bereitstellung auf GitHub $\rightarrow$ Lisa \& Anika (1 Sprint)
+\item Planung der Implementierung der Funktionen in die Seite (1 Sprint) --> Maximilian \& Yuliya 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 2, Mittwoch, 17.06.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 2, Mittwoch, 17.06.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
       
 
@@ -137,12 +150,12 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \item Verteilung der Aufgaben für die kommende Woche
 \begin{itemize}
 \item Anmeldung programmieren: Eingabefelder für Benutzername und Passwort, Login-Button, Design der Startseite --> Daniel (1 Sprint übrig)
-\item Coding der Raumübersicht: Ansicht verschiedener Räume mit Infotext über jeweiligen Raum --> Yuliya & Maximilian (2 Sprints)
-\item Problembehebung auf GitHub --> Lisa & Anika (1 Sprint)
+\item Coding der Raumübersicht: Ansicht verschiedener Räume mit Infotext über jeweiligen Raum --> Yuliya \& Maximilian (2 Sprints)
+\item Problembehebung auf GitHub --> Lisa \& Anika (1 Sprint)
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 3, Mittwoch, 24.06.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 3, Mittwoch, 24.06.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}      
 
 \begin{itemize}
@@ -156,7 +169,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 4, Mittwoch, 01.07.2020, Beginn: 17:45 Uhr Ende 18:15 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 4, Mittwoch, 01.07.2020, Beginn: 17:45 Uhr Ende 18:15 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina} 
 
 \begin{itemize}
@@ -172,7 +185,7 @@ Maximilian Hartwich, Yuliya Karybochkin}
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 5, Mittwoch, 08.07.2020, Beginn: 12:30 Uhr Ende 13:30 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 5, Mittwoch, 08.07.2020, Beginn: 12:30 Uhr Ende 13:30 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina} 
 
 \begin{itemize}
@@ -184,11 +197,11 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \item E-Mail zur Benachrichtigung bei Buchung, Stornierung --> Daniel (1 Sprint)
 \item Internationalisierung des Systems (System in englischer Sprache) 
 --> Yuliya (1 Sprint)
-\item Abschlussdokumentation der Projektarbeit --> Anika & Lisa
+\item Abschlussdokumentation der Projektarbeit --> Anika \& Lisa
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 6, Mittwoch, 15.07.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 6, Mittwoch, 15.07.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 
 \begin{itemize}
@@ -199,11 +212,11 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \item Hinweis, bei falscher Kennworteingabe beim Login --> Maximilian (1 Sprint)
 \item Kalenderfunktion --> Yuliya (1 Sprint)
 \item Anzeige personenbezogener Daten --> Daniel (1 Sprint)
-\item Abschlussdokumentation in Latex --> Lisa & Anika (Running ToDo bis zum Projektabschluss)
+\item Abschlussdokumentation in Latex --> Lisa \& Anika (Running ToDo bis zum Projektabschluss)
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 7, Mittwoch, 22.07.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 7, Mittwoch, 22.07.2020, Beginn: 10:30 Uhr Ende 11:15 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 
 \begin{itemize}
@@ -215,26 +228,26 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \item Anlegen, Editieren und Löschen von Benutzerkonten durch den Admin --> Maximilian (1 Sprint)
 \item Anlegen und Editieren von Space-bezogenen Daten ausschließlich durch den Admin --> Maximilian (1 Sprint)
 \item Anlegen, Editieren und Löschen der Ressourcen der Learning Spaces --> Daniel (2 Sprints)
-\item Abschlussdokumentation in Latex --> Lisa & Anika (Running ToDo bis zum Projektabschluss)
+\item Abschlussdokumentation in Latex --> Lisa \& Anika (Running ToDo bis zum Projektabschluss)
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 8, Mittwoch, 29.07.2020, Beginn: 10:15 Uhr Ende 11:45 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 8, Mittwoch, 29.07.2020, Beginn: 10:15 Uhr Ende 11:45 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 \begin{itemize}
 \item Allgemeine Besprechung des Projektstatus
 \item Rücksprache über aktuelle Arbeitspakete (erledigt, Probleme, Verlängerung notwendig oder Sonstiges)
-\item Sammeln erster Ideen für mögliche Testszenarien  alle
-\item Einfügen fehlender Kommentare im Quelltext  Daniel & Maximilian (Running ToDo bis zum Projektabschluss)
-\item Fertigstellung der Programmierung, damit ab nächster Woche Testszenarien durchgeführt werden können und Fehlermeldungen behoben werden können.  Daniel & Maximilian (Running ToDo bis zum Projektabschluss)
+\item Sammeln erster Ideen für mögliche Testszenarien --> alle
+\item Einfügen fehlender Kommentare im Quelltext --> Daniel \& Maximilian (Running ToDo bis zum Projektabschluss)
+\item Fertigstellung der Programmierung, damit ab nächster Woche Testszenarien durchgeführt werden können und Fehlermeldungen behoben werden können. --> Daniel \& Maximilian (Running ToDo bis zum Projektabschluss)
 \item Aufgabenverteilung für die nächste Woche:
 \begin{itemize}
-\item Abschlussdokumentation der Projektarbeit --> Anika & Lisa
+\item Abschlussdokumentation der Projektarbeit --> Anika \& Lisa
 \item Beschreibung der API Endpunkte --> Daniel (2 Sprints)
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. . 9, Mittwoch, 05.08.2020, Beginn: 10:00 Uhr Ende 11:30 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. . 9, Mittwoch, 05.08.2020, Beginn: 10:00 Uhr Ende 11:30 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 \begin{itemize}
 \item Durchsprache des aktuellen Standes des Projektes
@@ -249,15 +262,15 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \end{itemize}
 \item Aufgabenverteilung für die nächste Woche:
 \begin{itemize}
-\item Abschlussdokumentation der Projektarbeit --> Anika & Lisa
+\item Abschlussdokumentation der Projektarbeit --> Anika \& Lisa
 \item Beschreibung der API Endpunkte --> Yuliya (1 Sprint übrig)
-\item Beschreibung des durchgeführten Tests --> Anika & Lisa (1Sprint)
-\item Einfügen fehlender Kommentare im Quelltext --> Daniel & Maximilian (Running ToDo bis zum Projektabschluss)
-\item Fertigstellung der Programmierung, damit ab nächster Woche Testszenarien durchgeführt werden können und Fehlermeldungen behoben werden können. --> Daniel & Maximilian (Running ToDo bis zum Projektabschluss)
+\item Beschreibung des durchgeführten Tests --> Anika \& Lisa (1Sprint)
+\item Einfügen fehlender Kommentare im Quelltext --> Daniel \& Maximilian (Running ToDo bis zum Projektabschluss)
+\item Fertigstellung der Programmierung, damit ab nächster Woche Testszenarien durchgeführt werden können und Fehlermeldungen behoben werden können. --> Daniel \& Maximilian (Running ToDo bis zum Projektabschluss)
 
 \end{itemize}
 \end{itemize}
-{\large SCRUM-Meeting Nr. 10, Mittwoch, 12.08.2020, Beginn: 09:00 Uhr Ende 10:45 Uhr}  \\
+ \underline{{\large SCRUM-Meeting Nr. 10, Mittwoch, 12.08.2020, Beginn: 09:00 Uhr Ende 10:45 Uhr}}  \\
 \textit{Teilnehmer: Lisa Peter, Anika Balke, Maximilian Hartwich, Daniel Hartmann, Yuliya Karyabochkina}
 \begin{itemize}
 \item Allgemeine Besprechung des Projektstatus
@@ -271,19 +284,19 @@ Maximilian Hartwich, Yuliya Karybochkin}
 \end{itemize}
 \item Aufgabenverteilung für die nächste Woche
 \begin{itemize}
-\item Abschlussdokumentation der Projektarbeit --> Anika & Lisa
+\item Abschlussdokumentation der Projektarbeit --> Anika \& Lisa
 \item Beschreibung des durchgeführten Tests --> Yuliya (1 Sprint)
-\item Durchführung letzter Feinheiten an der Programmierung --> Daniel & Maximilian (1Sprint)
+\item Durchführung letzter Feinheiten an der Programmierung --> Daniel \& Maximilian (1Sprint)
 
 \end{itemize}
 \end{itemize}
 
       
      
-\section{Github Repo}
-\section{Fortschreibung des Zeitplans mit den erledigten Arbeitspaketen}
-\section{Produktdokumentation basierend auf dem Pflichtenheft}
-\section{Beschreibung der durchgeführten Tests}
-\section{Beschreibung der API Endpunkte}        
+\chapter{Github Repo}
+\chapter{Fortschreibung des Zeitplans mit den erledigten Arbeitspaketen}
+\chapter{Produktdokumentation basierend auf dem Pflichtenheft}
+\chapter{Beschreibung der durchgeführten Tests}
+\chapter{Beschreibung der API Endpunkte}        
 
 \end{document}
