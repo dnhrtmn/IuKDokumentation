@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  28 AUG 2020 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  28 AUG 2020 12:28
 entering extended mode
 **./Doku.tex
 (Doku.tex
@@ -420,25 +420,36 @@ Overfull \hbox (7.59665pt too wide) in paragraph at lines 273--275
 $[]$ 
  []
 
-[9]
-chapter 2.
-[10
 
-]
-chapter 3.
+Overfull \hbox (2.05272pt too wide) in paragraph at lines 293--295
+$[]$ 
+ []
+
+[9]
+Overfull \hbox (4.04686pt too wide) in paragraph at lines 309--310
+[]\T1/aer/m/n/10.95 Fortschreibung des Zeit-plans mit den er-le-dig-ten Ar-beit
+-s-pa-ke-ten --> Yu-li-ya (1 Sprint) 
+ []
+
+[10]
+chapter 2.
 [11
 
 ]
-chapter 4.
+chapter 3.
 [12
 
 ]
-chapter 5.
+chapter 4.
 [13
 
 ]
-chapter 6.
+chapter 5.
 [14
+
+]
+chapter 6.
+[15
 
 ] (Doku.aux)
 
@@ -462,9 +473,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on Doku.pdf (14 pages, 129286 bytes).
+Output written on Doku.pdf (15 pages, 131307 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
