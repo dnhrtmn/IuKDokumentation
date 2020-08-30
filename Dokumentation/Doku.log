@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  30 AUG 2020 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  30 AUG 2020 16:40
 entering extended mode
 **./Doku.tex
 (Doku.tex
@@ -240,11 +240,7 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [report].
 
-(Doku.aux
-
-LaTeX Warning: Label `cha:Produktdokumentation' multiply defined.
-
-)
+(Doku.aux)
 \openout1 = `Doku.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -456,11 +452,11 @@ File: Raumanzeige.png Graphic file (type png)
 <use Raumanzeige.png>
 Package pdftex.def Info: Raumanzeige.png  used on input line 338.
 (pdftex.def)             Requested size: 334.60571pt x 237.55489pt.
-<Wochenansicht.png, id=50, 889.07156pt x 472.01344pt>
-File: Wochenansicht.png Graphic file (type png)
-<use Wochenansicht.png>
-Package pdftex.def Info: Wochenansicht.png  used on input line 345.
-(pdftex.def)             Requested size: 334.60571pt x 177.6384pt.
+<Wochenanzeige.jpeg, id=50, 1606.0pt x 874.26625pt>
+File: Wochenanzeige.jpeg Graphic file (type jpg)
+<use Wochenanzeige.jpeg>
+Package pdftex.def Info: Wochenanzeige.jpeg  used on input line 345.
+(pdftex.def)             Requested size: 334.60571pt x 182.14725pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -469,57 +465,66 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13
 
- <./Login mit ausgefahrenem Reiter.png>] [14 <./Raumanzeige.png> <./Wochenansic
-ht.png>]
-<Buchungsvorgang.png, id=58, 1204.5pt x 636.12656pt>
+ <./Login mit ausgefahrenem Reiter.png>] [14 <./Raumanzeige.png> <./Wochenanzei
+ge.jpeg>]
+<Reservierungsübersicht.jpeg, id=58, 1606.0pt x 874.26625pt>
+File: Reservierungsübersicht.jpeg Graphic file (type jpg)
+<use Reservierungsübersicht.jpeg>
+Package pdftex.def Info: Reservierungsübersicht.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 334.60571pt x 182.14725pt.
+<Buchungsvorgang.png, id=59, 1204.5pt x 636.12656pt>
 File: Buchungsvorgang.png Graphic file (type png)
 <use Buchungsvorgang.png>
-Package pdftex.def Info: Buchungsvorgang.png  used on input line 353.
+Package pdftex.def Info: Buchungsvorgang.png  used on input line 359.
 (pdftex.def)             Requested size: 334.60571pt x 176.71648pt.
- [15
 
- <./Buchungsvorgang.png>]
-<Stornieren.png, id=62, 883.80188pt x 549.55313pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15
+
+ <./Reservierungsübersicht.jpeg>] [16 <./Buchungsvorgang.png>]
+<Stornieren.png, id=66, 883.80188pt x 549.55313pt>
 File: Stornieren.png Graphic file (type png)
 <use Stornieren.png>
-Package pdftex.def Info: Stornieren.png  used on input line 361.
+Package pdftex.def Info: Stornieren.png  used on input line 367.
 (pdftex.def)             Requested size: 334.60571pt x 208.06088pt.
-<Buchungsinformation.png, id=63, 1190.94937pt x 462.97969pt>
+<Buchungsinformation.png, id=67, 1190.94937pt x 462.97969pt>
 File: Buchungsinformation.png Graphic file (type png)
 <use Buchungsinformation.png>
-Package pdftex.def Info: Buchungsinformation.png  used on input line 369.
+Package pdftex.def Info: Buchungsinformation.png  used on input line 375.
 (pdftex.def)             Requested size: 334.60571pt x 130.07141pt.
- [16
+ [17
 
  <./Stornieren.png> <./Buchungsinformation.png>]
-<Personenbezogene Daten.png, id=67, 898.85812pt x 629.35126pt>
+<Personenbezogene Daten.png, id=71, 898.85812pt x 629.35126pt>
 File: Personenbezogene Daten.png Graphic file (type png)
 <use Personenbezogene Daten.png>
-Package pdftex.def Info: Personenbezogene Daten.png  used on input line 377.
+Package pdftex.def Info: Personenbezogene Daten.png  used on input line 383.
 (pdftex.def)             Requested size: 334.60571pt x 234.27757pt.
- [17
+ [18
 
  <./Personenbezogene Daten.png>]
 chapter 5.
-[18
+[19
 
 ]
 chapter 6.
-[19
+[20
 
 ] (Doku.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7669 strings out of 481005
- 165655 string characters out of 2910585
- 550055 words of memory out of 3000000
- 23361 multiletter control sequences out of 15000+200000
+ 7686 strings out of 481005
+ 166047 string characters out of 2910585
+ 549906 words of memory out of 3000000
+ 23375 multiletter control sequences out of 15000+200000
  562154 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,19n,72p,10601b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -532,9 +537,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on Doku.pdf (19 pages, 324254 bytes).
+Output written on Doku.pdf (20 pages, 555697 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
