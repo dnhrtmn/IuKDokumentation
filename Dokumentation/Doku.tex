@@ -322,7 +322,65 @@
 \chapter{Github Repo}
 \chapter{Fortschreibung des Zeitplans mit den erledigten Arbeitspaketen}
 \chapter{Produktdokumentation basierend auf dem Pflichtenheft}
+Nach dem Öffnen der Seite kann sich der User (Admin, Dozent, Mitarbeiter, Student) über die vorhandenen Eingabeflächen mit der privaten E-Mail-Adresse sowie seinem Kennwort anmelden (F25). Zusätzlich wird ihm über einen Reiter die Option geboten, sich die Seite entweder auf Deutsch oder Englisch anzeigen zu lassen, was die Software gerade für Austauschstudenten benutzerfreundlicher macht (F16). 
+\begin{figure}[h]
+    \centering
+    \caption{Login mit ausgefahrenem Reiter}
+    \includegraphics[width=0.8\textwidth]{Login mit ausgefahrenem Reiter}
+    \label{fig:Login mit ausgefahrenem Reiter}
+\end{figure}
+Nach dem erfolgreichen Login befindet sich der User auf der Home-Ansicht. Von dort aus kann er sich zu verschiedenen Seitenansichten navigieren. Über die Raumbelegungsanzeige werden alle vorhandenen Räume/Spaces angezeigt (F10).
+\begin{figure}[h]
+    \centering
+    \caption{Raumanzeige}
+    \includegraphics[width=0.8\textwidth]{Raumanzeige}
+    \label{fig:Raumanzeige}
+\end{figure}
+Bei der Auswahl eines Raumes, erscheint eine Wochenanzeige des jeweiligen Raumes mit allen möglichen Blöcken und deren zeitliche Begrenzungen (F12).
+\begin{figure}[h]
+    \centering
+    \caption{Wochenansicht}
+    \includegraphics[width=0.8\textwidth]{Wochenansicht}
+    \label{fig:Wochenansicht}
+\end{figure}
+\clearpage
+Dabei stehen grün hinterlegte Blöcke für ungebuchte/freie und rot hinterlegte für bereits gebuchte/belegte Blöcke. Der User hat die Möglichkeit entweder einen freien Block auszuwählen und diesen über eine Schaltfläche zu buchen (F18) oder einen gebuchten Block, für den er eine Nutzungsanfrage an den jeweiligen User schicken kann (F19).
+\begin{figure}[h]
+    \centering
+    \caption{Buchungsvorgang}
+    \includegraphics[width=0.8\textwidth]{Buchungsvorgang}
+    \label{fig:Buchungsvorgang}
+\end{figure}
+Im Falle einer freien Buchung erhält der User eine Bestätigungsmail (L11) und im Falle eine Nutzungsanfrage wird eine generierte Mail an den User geschickt, über die dieser der Nutzungsüberlassung zustimmen kann. Dozenten haben zusätzlich das Recht gebuchte Blöcke ohne Zustimmung des anderen Users (Mitarbeiter/Student) zu überbuchen (F20). Auch in diesem Fall wird der User per Mail über die Überbuchung informiert. Sollte der User bemerken, dass er den von ihm gebuchten Termin nicht wahrnehmen kann, kann er diesen in der persönlichen Reservierungsübersicht, in der alle vergangenen und auch bevorstehenden Buchungen gelistet sind (F13/F14), über den „Delete“-Button stornieren (F21).
+\clearpage
+\begin{figure}[h]
+    \centering
+    \caption{Stornieren}
+    \includegraphics[width=0.8\textwidth]{Stornieren}
+    \label{fig:Stornieren}
+\end{figure}
+Dabei wird vom System eine automatische E-Mail, die die erfolgreiche Stornierung bestätigt, an den User gesendet (L13).
+{\huge \textbf{Screenshot 4: Ein (oder alle Fälle?) Fäll mit der Bestätigungsanzeige}}
+Die Buchung eines Blocks ist maximal sieben Tage im Voraus möglich und jeder User kann in diesem Zeitraum nur maximal einen Block für die geplante Nutzung reservieren. Bei einem weiteren Buchungsversuch wird er darüber informiert, dass ein gebuchter Termin noch aussteht und die gewollte Buchung erst nach Stornierung oder Wahrnehmung möglich ist.
+\begin{figure}[h]
+    \centering
+    \caption{Buchungsinformation}
+    \includegraphics[width=0.8\textwidth]{Buchungsinformation}
+    \label{fig:Buchungsinformation}
+\end{figure}
+\clearpage
+Jeder User kann sich seine personenbezogenen Daten, die bei der Erstellung des Nutzerkontos benötigt werden (D10), anzeigen lassen (F23). Weiterhin ist es für den User selbst möglich, das Passwort sowie die E-Mail-Adresse zu ändern und diese Änderung über den „Update“-Button zu aktualisieren \textbf{{\LARGE (F24).}}
+\begin{figure}[h]
+    \centering
+    \caption{Personenbezogene Daten}
+    \includegraphics[width=0.8\textwidth]{Personenbezogene Daten}
+    \label{fig:Personenbezogene Daten}
+\end{figure}
+
+Als Admin des Systems kommen zusätzliche Rechte zu den vorherig genannten hinzu. So kann ein Admin neue Benutzerkonten der drei Usergruppen erstellen (F27) und löschen (F29) und deren zugehörige Daten ändern (F28). Der Logout ist jederzeit über den in der Kopfzeile befindlichen Button möglich (F26).
+
 \chapter{Beschreibung der durchgeführten Tests}
-\chapter{Beschreibung der API Endpunkte}        
+\chapter{Beschreibung der API Endpunkte}  
+https://documenter.getpostman.com/view/12423629/TVCcXouz      
 
 \end{document}
