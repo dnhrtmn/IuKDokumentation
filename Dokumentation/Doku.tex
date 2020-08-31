@@ -324,6 +324,11 @@
 \underline{Projekt:} https://github.com/dnhrtmn/IuK.git
 \chapter{Fortschreibung des Zeitplans mit den erledigten Arbeitspaketen}
 \chapter{Produktdokumentation basierend auf dem Pflichtenheft}\label{cha:Produktdokumentation}
+\section{Für den Anwender erforderliche Login-Informationen}
+Alle Mails, die vom System an den Nutzer gesendet werden sind unter folgendem Link ersichtlich: \textbf{wwww.Mailtrap.io}. \\
+Zum Login bitte mit dem Nutzernamen \dq \textbf{da.hartmann@me.com}\dq{} 
+und dazugehörigem Passwort \dq  \textbf{DidPfIuk2020!}\dq{} anmelden.
+\section{Grundsätzliche Funktionen inklusive Muss-Kriterien}
 Nach dem Öffnen der Seite kann sich der User (Admin, Dozent, Mitarbeiter, Student) über die vorhandenen Eingabeflächen mit der privaten E-Mail-Adresse sowie seinem Kennwort anmelden (F25). Zusätzlich wird ihm über einen Reiter die Option geboten, sich die Seite entweder auf Deutsch oder Englisch anzeigen zu lassen, was die Software gerade für Austauschstudenten benutzerfreundlicher macht (F16). 
 \begin{figure}[h]
     \centering
@@ -360,7 +365,7 @@ Dabei stehen grün hinterlegte Blöcke für ungebuchte/freie und rot hinterlegte
     \label{fig:Buchungsvorgang}
 \end{figure}
 Im Falle einer freien Buchung erhält der User eine Bestätigungsmail (L11) und im Falle eine Nutzungsanfrage wird eine generierte Mail an den User geschickt, über die dieser der Nutzungsüberlassung zustimmen kann. Dozenten haben zusätzlich das Recht gebuchte Blöcke ohne Zustimmung des anderen Users (Mitarbeiter/Student) zu überbuchen (F20). Auch in diesem Fall wird der User per Mail über die Überbuchung informiert. Sollte der User bemerken, dass er den von ihm gebuchten Termin nicht wahrnehmen kann, kann er diesen in der persönlichen Reservierungsübersicht, in der alle vergangenen und auch bevorstehenden Buchungen gelistet sind (F13/F14), über den „Delete“-Button stornieren (F21).
-\clearpage
+
 \begin{figure}[h]
     \centering
     \caption{Stornieren}
@@ -384,8 +389,56 @@ Jeder User kann sich seine personenbezogenen Daten, die bei der Erstellung des N
     \label{fig:Personenbezogene Daten}
 \end{figure}
 
-Als Admin des Systems kommen zusätzliche Rechte zu den vorherig genannten hinzu. So kann ein Admin neue Benutzerkonten der drei Usergruppen erstellen (F27) und löschen (F29) und deren zugehörige Daten ändern (F28). Der Logout ist jederzeit über den in der Kopfzeile befindlichen Button möglich (F26).
+Als Admin des Systems kommen zusätzliche Rechte zu den vorherig genannten hinzu. So kann ein Admin neue Benutzerkonten der drei Usergruppen erstellen (F27) und löschen (F29) und deren zugehörige Daten ändern (F28). Genauso können Daten bezüglich des jeweiligen Learning Spaces angelegt (F30), editiert (F31) oder gelöscht (F32) werden. Die Ressourcen, die jeweils innerhalb eines Learning Spaces angezeigt werden können ebenso vom Admin angelegt (F33), editiert (F34) und gelöscht (F35) werden.
+\clearpage
+\begin{figure}[h]
+    \centering
+    \caption{Adminrechte}
+    \includegraphics[width=0.8\textwidth]{Adminrechte}
+    \label{fig:Adminrechte}
+\end{figure}
+Der Logout ist jederzeit über den in der Kopfzeile befindlichen Button möglich (F26).\\ \\
+\underline{{\large Sonstige Leistungen:}}
+\begin{itemize}
 
+\item Fehlermeldung bei falscher Eingabe des Benutzernamens oder Passworts (L10)\\
+\item Automatische E-Mail zur Benachrichtigung bei erfolgreicher Buchung (L11)\\
+\item Automatische E-Mail zur Benachrichtigung bei erfolgreicher Stornierung der Buchung eines Learning Spaces (L13)
+\end{itemize}
+\section{Implementierte Kann-Kriterien}
+
+\begin{itemize}
+\item \textbf{Mitarbeiter, Dozenten und Studenten der htw saar}
+\begin{itemize}
+\item Anzeige der Ressourcen in jedem Raum (Plätze, Flipchart oder ähnliches)
+\item Hilfe über Kontaktformular anfragen
+\end{itemize}
+
+\item Benachrichtigungsemail bei Buchung, Stornierung
+\item Dozenten besitzen die Fähigkeit Buchungen zu überschreiben
+\item Studenten können anonym belegte Räume anfragen
+\item Kontaktaufnahme bei Nachfragen und Komplikationen über Kontaktformular
+\item Internationalisierung, sodass das System in englischer Sprache angezeigt und genutzt werden kann
+\end{itemize}
+
+\section{Abgrenzungskriterien}\label{abgrenzungskriterien}
+\begin{itemize}
+\item \textbf{Mitarbeiter, Dozenten und Studenten der htw saar}
+\begin{itemize}
+\item Admin-Rechte 
+\item Vollzugriff auf Daten und Funktionen
+\item Mehrfache Raumbuchungen pro Woche 
+\item Doppelbelegung eines Spaces durch zwei oder mehrere User
+\item Space für länger als einen Zeitblock buchen
+\item Buchungen maximal eine Woche im Voraus 
+\end{itemize}
+
+\item \textbf{Spaces inklusive externer Displays}
+\begin{itemize}
+\item Anzeige einzelner Nutzerdaten
+\item Anzeige einzelner Admin Funktionen
+\end{itemize}
+\end{itemize}
 \chapter{Beschreibung der durchgeführten Tests}
 Durchgeführte Tests siehe in Scrum-Meeting 9 und 10, sowie der vorangegangenen Produktdokumentation.
 \chapter{Beschreibung der API Endpunkte}  

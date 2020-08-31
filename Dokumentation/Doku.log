@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  30 AUG 2020 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  31 AUG 2020 13:30
 entering extended mode
 **./Doku.tex
 (Doku.tex
@@ -445,89 +445,110 @@ chapter 4.
 File: Login mit ausgefahrenem Reiter.png Graphic file (type png)
 <use Login mit ausgefahrenem Reiter.png>
 Package pdftex.def Info: Login mit ausgefahrenem Reiter.png  used on input line
- 331.
+ 336.
 (pdftex.def)             Requested size: 334.60571pt x 169.05685pt.
 <Raumanzeige.png, id=49, 892.83563pt x 633.86812pt>
 File: Raumanzeige.png Graphic file (type png)
 <use Raumanzeige.png>
-Package pdftex.def Info: Raumanzeige.png  used on input line 338.
+Package pdftex.def Info: Raumanzeige.png  used on input line 343.
 (pdftex.def)             Requested size: 334.60571pt x 237.55489pt.
 <Wochenanzeige.jpeg, id=50, 1606.0pt x 874.26625pt>
 File: Wochenanzeige.jpeg Graphic file (type jpg)
 <use Wochenanzeige.jpeg>
-Package pdftex.def Info: Wochenanzeige.jpeg  used on input line 345.
+Package pdftex.def Info: Wochenanzeige.jpeg  used on input line 350.
 (pdftex.def)             Requested size: 334.60571pt x 182.14725pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [13
 
- <./Login mit ausgefahrenem Reiter.png>] [14 <./Raumanzeige.png> <./Wochenanzei
-ge.jpeg>]
-<Reservierungsübersicht.jpeg, id=58, 1606.0pt x 874.26625pt>
+ <./Login mit ausgefahrenem Reiter.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./Raumanzeige.png>] [15 <./Wochenanzeige.jpeg>]
+<Reservierungsübersicht.jpeg, id=61, 1606.0pt x 874.26625pt>
 File: Reservierungsübersicht.jpeg Graphic file (type jpg)
 <use Reservierungsübersicht.jpeg>
-Package pdftex.def Info: Reservierungsübersicht.jpeg  used on input line 353.
+Package pdftex.def Info: Reservierungsübersicht.jpeg  used on input line 358.
 (pdftex.def)             Requested size: 334.60571pt x 182.14725pt.
-<Buchungsvorgang.png, id=59, 1204.5pt x 636.12656pt>
+<Buchungsvorgang.png, id=62, 1204.5pt x 636.12656pt>
 File: Buchungsvorgang.png Graphic file (type png)
 <use Buchungsvorgang.png>
-Package pdftex.def Info: Buchungsvorgang.png  used on input line 359.
+Package pdftex.def Info: Buchungsvorgang.png  used on input line 364.
 (pdftex.def)             Requested size: 334.60571pt x 176.71648pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15
-
- <./Reservierungsübersicht.jpeg>] [16 <./Buchungsvorgang.png>]
-<Stornieren.png, id=66, 883.80188pt x 549.55313pt>
+<Stornieren.png, id=63, 883.80188pt x 549.55313pt>
 File: Stornieren.png Graphic file (type png)
 <use Stornieren.png>
-Package pdftex.def Info: Stornieren.png  used on input line 367.
+Package pdftex.def Info: Stornieren.png  used on input line 372.
 (pdftex.def)             Requested size: 334.60571pt x 208.06088pt.
-<Buchungsinformation.png, id=67, 1190.94937pt x 462.97969pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Buchungsinformation.png, id=64, 1190.94937pt x 462.97969pt>
 File: Buchungsinformation.png Graphic file (type png)
 <use Buchungsinformation.png>
-Package pdftex.def Info: Buchungsinformation.png  used on input line 375.
+Package pdftex.def Info: Buchungsinformation.png  used on input line 380.
 (pdftex.def)             Requested size: 334.60571pt x 130.07141pt.
- [17
 
- <./Stornieren.png> <./Buchungsinformation.png>]
-<Personenbezogene Daten.png, id=71, 898.85812pt x 629.35126pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16
+
+ <./Reservierungsübersicht.jpeg>] [17 <./Buchungsvorgang.png> <./Stornieren.pn
+g>] [18 <./Buchungsinformation.png>]
+<Personenbezogene Daten.png, id=74, 898.85812pt x 629.35126pt>
 File: Personenbezogene Daten.png Graphic file (type png)
 <use Personenbezogene Daten.png>
-Package pdftex.def Info: Personenbezogene Daten.png  used on input line 383.
+Package pdftex.def Info: Personenbezogene Daten.png  used on input line 388.
 (pdftex.def)             Requested size: 334.60571pt x 234.27757pt.
- [18
+ [19
 
  <./Personenbezogene Daten.png>]
+<Adminrechte.png, id=79, 700.11563pt x 295.1025pt>
+File: Adminrechte.png Graphic file (type png)
+<use Adminrechte.png>
+Package pdftex.def Info: Adminrechte.png  used on input line 397.
+(pdftex.def)             Requested size: 334.60571pt x 141.03969pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+[20
+
+ <./Adminrechte.png>] [21]
 chapter 5.
-[19
+[22
 
 ]
 chapter 6.
-[20
+[23
 
 ] (Doku.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 7686 strings out of 481005
- 166047 string characters out of 2910585
- 549906 words of memory out of 3000000
- 23375 multiletter control sequences out of 15000+200000
+ 7695 strings out of 481005
+ 166210 string characters out of 2910585
+ 550049 words of memory out of 3000000
+ 23384 multiletter control sequences out of 15000+200000
  562154 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,19n,72p,10601b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,19n,72p,10601b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\AnikaBalke\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dp
 i600\tcrm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 b10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
@@ -537,9 +558,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on Doku.pdf (20 pages, 555697 bytes).
+Output written on Doku.pdf (23 pages, 591426 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
